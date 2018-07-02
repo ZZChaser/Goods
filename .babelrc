@@ -1,0 +1,9 @@
+{
+  "plugins": [
+  	"transform-react-jsx",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    ["import", { libraryName: "antd", style: "css" }]
+  ],
+  "presets": ["es2015"]
+}
